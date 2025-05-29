@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "Clipboard to Google Maps",
+  "version": "1.0",
+  "description": "クリップボードの緯度経度を読み取り、Googleマップで開く拡張機能",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": ["clipboardRead", "tabs"]
+}
